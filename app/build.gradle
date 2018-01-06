@@ -1,0 +1,47 @@
+apply plugin: 'com.android.application'
+
+Properties properties = new Properties()
+properties.load(project.rootProject.file('local.properties').newDataInputStream())
+def bqmmAppID = properties.getProperty('bqmm.appID')
+def bqmmAppSecret = properties.getProperty('bqmm.appSecret')
+
+android {
+    compileSdkVersion 26
+    defaultConfig {
+        applicationId "com.zyl.zylchathelps"
+        minSdkVersion 16
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+        //添加如下配置就OK了
+        javaCompileOptions { annotationProcessorOptions { includeCompileClasspath = true } }
+        /**
+         * 以下代码可以把appID和appSecret写入AndroidManifest
+         */
+        manifestPlaceholders = [bqmmAppID: bqmmAppID, bqmmAppSecret: bqmmAppSecret]
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.android.support:appcompat-v7:26.1.0'
+    implementation 'com.android.support:recyclerview-v7:26.1.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    implementation project(':chathelp')
+    implementation files('libs/bqmm_v2.0.0.jar')
+    implementation 'com.jakewharton:butterknife:7.0.1'
+    implementation 'com.github.bumptech.glide:glide:3.7.0'
+    implementation 'com.bm.photoview:library:1.4.1'  //自由放大的imageView
+    implementation 'com.lqr.imagepicker:library:1.0.0' //仿照微信选择图片
+    implementation 'top.zibin:Luban:1.1.2' //压缩图片
+    testImplementation 'junit:junit:4.12'
+
+}

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="bqmm_background_tab_pressed">#6633B5E5</color>
+ 	<color name="bqmm_pop_bg">#eeffffff</color>
+ 	<color name="bqmm_transparent">#00000000</color>
+    
+    <!-- 商店标题栏背景颜色 -->
+    <color name="bqmm_titlebar_bg">#ff2e2e2e</color>
+    <!-- 商店标题栏字体颜色 -->
+    <color name="bqmm_titletext_tc">#ffffffff</color>
+    
+    <!-- 我的表情页面排序按钮字体颜色 -->
+    <color name="bqmm_sort_button_color">#ffffffff</color>
+    <!-- 排序页面排序完成按钮字体颜色 -->
+    <color name="bqmm_sort_finish_button_color">#ff36cab6</color>
+    
+    <!-- 商店下载按钮字体颜色      下载前 -->
+	<color name="bqmm_download_button_text_color_download">#ff36cab6</color>
+	<!-- 商店下载按钮字体颜色      下载后 -->
+	<color name="bqmm_download_button_text_color_downloaded">#ffbcbcbc</color>
+	<!-- 商店下载按钮字体颜色       下载中 -->
+	<color name="bqmm_download_button_text_color_downloading">#ffffffff</color>
+	<!-- 商店下载按钮边框颜色       下载前 -->
+	<color name="bqmm_download_button_border_color_download">#ffbcbcbc</color>
+	<!-- 商店下载按钮边框颜色       下载后 -->
+	<color name="bqmm_download_button_border_color_downloaded">#ffbcbcbc</color>
+	<!-- 商店下载按钮背景颜色      下载前 -->
+	<color name="bqmm_download_button_background_color_download">#ffffffff</color>
+	<!-- 商店下载按钮背景颜色      下载后 -->
+	<color name="bqmm_download_button_background_color_downloaded">#ffffffff</color>
+	<!-- 商店下载按钮进度条颜色 -->
+	<color name="bqmm_download_button_progress_color">#ff36cab6</color>
+	<!-- 商店下载按钮进度条背景颜色 -->
+	<color name="bqmm_download_button_progress_background_color">#00000000</color>
+
+	<!-- 表情包详情页面下载按钮进度条颜色 -->
+	<color name="bqmm_emoji_package_detail_download_button_progress_color">#ff36cab6</color>
+	<!-- 表情包详情页面下载按钮进度条背景颜色 -->
+	<color name="bqmm_emoji_package_detail_download_button_progress_background_color">#00000000</color>
+
+	<!-- 表情详情页面下载按钮进度条颜色 -->
+	<color name="bqmm_emoji_detail_download_button_progress_color">#ff36cab6</color>
+	<!-- 表情详情页面下载按钮进度条背景颜色 -->
+	<color name="bqmm_emoji_detail_download_button_progress_background_color">#00000000</color>
+
+	<!-- 推荐位下载按钮进度条颜色 -->
+	<color name="bqmm_recommend_download_button_progress_color">#ff36cab6</color>
+	<!-- 推荐位下载按钮进度条背景颜色 -->
+	<color name="bqmm_recommend_download_button_progress_background_color">#00000000</color>
+	
+	<!-- 商店移除按钮字体颜色 -->
+	<color name="bqmm_delete_button_text_color">#ffe98182</color>
+	<!-- 商店移除按钮边框颜色 -->
+	<color name="bqmm_delete_button_border_color">#ffbcbcbc</color>
+	<!-- 商店移除按背景框颜色 -->
+	<color name="bqmm_delete_button_background_color">#00000000</color>
+	
+	<!-- 页面加载失败提示内容字体颜色 -->
+	<color name="bqmm_shop_network_error_text_color">#ffbcbcbc</color>
+	<!-- 键盘初始化失败提示内容字体颜色 -->
+	<color name="bqmm_keyboard_network_error_text_color">#ffbcbcbc</color>
+	<!-- 重新加载按钮边框颜色 -->
+	<color name="bqmm_reload_button_border_color">#ffbcbcbc</color>
+	<!-- 重新加载按钮内容颜色 -->
+	<color name="bqmm_reload_button_text_color">#ff36cab6</color>
+	<!-- 重新加载按钮背景颜色 -->
+	<color name="bqmm_reload_button_background_color">#ffffffff</color>
+	<!-- 点击刷新按钮内容颜色 -->
+	<color name="bqmm_refresh_button_text_color">#ff36cab6</color>
+	<!-- 点击刷新按钮背景颜色 -->
+	<color name="bqmm_refresh_button_background_color">#ffffffff</color>
+	
+	<!-- 单表情详情页表情包加载失败提示内容颜色 -->
+	<color name="bqmm_failed_get_package_text_color">#ffbcbcbc</color>
+	
+	<!-- 底部tab选中状态颜色 -->
+	<color name="bqmm_tab_selected_color">#33bcbcbc</color>
+	<!-- 底部tab栏背景颜色 -->
+	<color name="bqmm_tab_background_color">#ffffffff</color>
+	<!-- 表情键盘背景颜色 -->
+	<color name="bqmm_keyboard_background_color">#fff6f6f6</color>
+	
+	<!-- 表情键盘商店按钮图案颜色 -->
+	<color name="bqmm_keyboard_shop_button_color">#ffffffff</color>
+	<!-- 表情键盘商店按钮背景颜色 -->
+	<color name="bqmm_keyboard_shop_button_background_color">#ff36cab6</color>
+	
+	<!-- 默认大表情表情未下载覆盖层背景颜色 -->
+	<color name="bqmm_preload_covered_layout_background_color">#88000000</color>
+	<!-- 默认大表情包标题内容颜色 -->
+	<color name="bqmm_preload_package_name_text_color">#ffffffff</color>
+	
+	<!-- 默认大表情下载按钮内容颜色    下载前 -->
+	<color name="bqmm_preload_button_text_color_download">#ffffffff</color>
+	<!-- 默认大表情下载按钮内容颜色    下载中 -->
+	<color name="bqmm_preload_button_text_color_downloading">#ffffffff</color>
+	<!-- 默认大表情下载按钮边框颜色 -->
+	<color name="bqmm_preload_button_border_color">#ffffffff</color>
+	<!-- 默认大表情下载进度条颜色 -->
+	<color name="bqmm_preload_button_progress_color">#ff36cab6</color>
+	<!-- 默认大表情下载进度条背景颜色 -->
+	<color name="bqmm_preload_button_progress_background_color">#00000000</color>
+	<!-- 默认大表情下载按钮背景颜色 -->
+	<color name="bqmm_preload_button_background_color">#ff36cab6</color>
+
+	<color name="white">#ffffff</color>
+	<color name="line">#D2D2D2</color>
+
+	<color name="main">#26AAFD</color>
+	<color name="main_bg0">#f0f0f0</color>
+	<color name="main_bg1">#f8f8f8</color>
+	<color name="main_bg3">#FEB838</color>
+	<color name="main_bg4">#F6F5F5</color>
+	<color name="main_bg5">#E6E6E6</color>
+
+	<color name="assist_red">#ff6d6d</color>
+	<color name="assist_blue">#64a4f4</color>
+	<color name="assist_blue_down">#3489ff</color>
+	<color name="assist_green">#6ae068</color>
+	<color name="assist_yellow">#fcce0b</color>
+
+	<color name="gray0">#464646</color>
+	<color name="gray1">#7e7e7e</color>
+	<color name="gray2">#969696</color>
+	<color name="gray3">#c8969696</color>
+	<color name="gray4">#F5F5F5</color>
+	<color name="gray5">#EBEBEB</color>
+	<color name="gray6">#FBFBFB</color>
+	<color name="gray7">#999999</color>
+	<color name="gray8">#D9D9D9</color>
+	<color name="gray9">#DBDFE0</color>
+
+	<color name="red0">#ff0000</color>
+	<color name="red1">#D84E43</color>
+	<color name="red2">#F08B88</color>
+	<color name="red3">#FFFAF5</color>
+	<color name="red4">#823026</color>
+	<color name="red5">#FA6F5F</color>
+	<color name="red6">#D54A47</color>
+	<color name="red7">#E64340</color>
+	<color name="red8">#FF3E3E</color>
+
+	<color name="green0">#45C01A</color>
+	<color name="green1">#45C01A</color>
+	<color name="green2">#A3DEA3</color>
+	<color name="green3">#1AAD19</color>
+
+	<color name="blue0">#576B95</color>
+
+	<color name="black0">#000000</color>
+	<color name="black1">#99000000</color>
+
+	<color name="yellow0">#FFC51B</color>
+	<color name="yellow1">#E5A134</color>
+
+
+	<!--遮盖层颜色-->
+	<color name="mask">#32000000</color>
+
+	<!--快速索引bar颜色-->
+	<color name="side_bar">#919091</color>
+	<color name="side_bar_pressed">#BFBFBF</color>
+	
+</resources>

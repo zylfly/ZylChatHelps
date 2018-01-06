@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="6dp">
+
+    <TextView
+        android:id="@+id/chat_item_date"
+        style="@style/bqmm_chat_item_date"
+        android:layout_gravity="center_horizontal"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp">
+
+        <ImageView
+            android:id="@+id/chat_item_avatar"
+            style="@style/bqmm_chat_item_avatar"
+            android:layout_alignParentRight="true" />
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_toLeftOf="@id/chat_item_avatar">
+            <!-- 图片 -->
+            <com.zyl.chathelp.utils.BubbleImageView
+                android:id="@+id/bivPic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:maxHeight="150dp"
+                android:minHeight="80dp"
+                android:minWidth="80dp"
+                android:scaleType="fitCenter"
+                app:bubble_angle="10dp"
+                app:bubble_arrowHeight="10dp"
+                app:bubble_arrowLocation="right"
+                app:bubble_arrowOffset="-5dp"
+                app:bubble_arrowTop="20dp"
+                app:bubble_arrowWidth="8dp" />
+
+            <ImageView
+                android:id="@+id/ivVideo"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@mipmap/img_video_play_session" />
+        </RelativeLayout>
+
+
+        <ImageView
+            android:id="@+id/chat_item_fail"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/chat_item_content"
+            android:focusable="false"
+            android:visibility="gone" />
+
+        <ProgressBar
+            android:id="@+id/chat_item_progress"
+            style="@android:style/Widget.ProgressBar.Small.Inverse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/chat_item_content"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</LinearLayout>
+
+

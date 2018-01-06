@@ -1,0 +1,11 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zyl.chathelp">
+
+
+    <application>
+        <activity
+            android:name=".video.CameraActivity"
+            android:screenOrientation="portrait">
+        </activity>
+    </application>
+</manifest>

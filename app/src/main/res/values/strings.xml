@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ZylChatHelps</string>
+    <!--会话界面-->
+    <string name="send">发送</string>
+    <string name="please_to_talk">按住 说话</string>
+    <string name="shot">拍摄</string>
+    <string name="location">位置</string>
+    <string name="red_pack">红包</string>
+    <string name="album">相册</string>
+
+
+    <string name="voice_rec">手指上滑，取消发送</string>
+    <string name="voice_cancel">松开手指，取消发送</string>
+    <string name="voice_short">录音时间太短</string>
+    <string name="voice_failure">录音失败！</string>
+    <string name="send_audio_fail">发送语音失败，文件长度为0或语音权限没有开启</string>
+
+</resources>
